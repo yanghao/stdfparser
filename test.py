@@ -20,7 +20,7 @@ class tt(parser):
     def file_cleanup(self): pass
 
 def do():
-    log = logging.getLogger('prod_data_ftp')
+    log = logging.getLogger('test')
     lvl = logging.INFO
     logging.basicConfig(level=lvl)
     x = tt()
