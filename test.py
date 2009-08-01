@@ -20,6 +20,7 @@ class tt(parser):
     def file_cleanup(self): pass
 
 def do():
+    # dummy comment, to test hg auth settings
     log = logging.getLogger('test')
     lvl = logging.INFO
     logging.basicConfig(level=lvl)
